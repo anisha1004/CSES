@@ -6,6 +6,6 @@ int main()
     cin>>n;
     for(i=0;i<n;++i)
     c*=2;
-    cout<<c;
+    cout<<c%(10^9+7);
     return 0;
 }
