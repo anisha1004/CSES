@@ -8,12 +8,13 @@ int main()
     cin>>s;
     for(i=0;i<s.length()-1;++i)
     {
-        if(s.at(i)==s.at(i+1))
+        if(s[i]==s[i+1])
         {
             c++;
-            if(c>m)
-            m=c;
+            m=max(m,c);
         }
+        else
+        c=1;
     }
     cout<<m;
     return 0;
