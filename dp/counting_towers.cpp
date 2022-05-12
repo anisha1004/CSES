@@ -14,7 +14,7 @@ int main()
     {
         int n;
         cin>>n;
-        cout<<solve(n);
+        cout<<solve(n, 0);
     }
     return 0;
 }
